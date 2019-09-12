@@ -168,6 +168,8 @@ export default class Calendar {
     } else {
       this.requestRerender(true)
     }
+
+    this.publiclyTrigger('renderFinished')
   }
 
 

@@ -6,13 +6,7 @@
   "description": "Display your events on a grid of time slots",
   "docs": "https://fullcalendar.io/docs/timegrid-view",
   "browserGlobal": "FullCalendarTimeGrid",
-  "dependencies": {
-    "@fullcalendar/daygrid": "~4.3.0"
-  },
   "peerDependencies": {
-    "@fullcalendar/core": "~4.3.0"
-  },
-  "devDependencies": {
     "@fullcalendar/core": "~4.3.0"
   }
 }

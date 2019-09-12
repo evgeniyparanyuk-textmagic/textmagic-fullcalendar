@@ -7,11 +7,9 @@
   "docs": "https://fullcalendar.io/docs/rrule-plugin",
   "browserGlobal": "FullCalendarRrule",
   "peerDependencies": {
-    "@fullcalendar/core": "~4.3.0",
     "rrule": "^2.6.0"
   },
   "devDependencies": {
-    "@fullcalendar/core": "~4.3.0",
     "rrule": "^2.6.0"
   }
 }

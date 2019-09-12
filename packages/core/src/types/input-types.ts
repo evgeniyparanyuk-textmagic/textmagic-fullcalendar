@@ -82,7 +82,7 @@ export type EventHandlerName =
   'eventResizeStart' | 'eventResizeStop' | 'eventResize' | 'eventReceive' |
   'eventLeave' | 'viewSkeletonRender' | 'viewSkeletonDestroy' | '_noEventDrop' |
   '_noEventResize' | 'eventLimitClick' |
-  'resourceRender' // BAD: put in Scheduler somehow
+  'resourceRender' | 'renderFinished' // BAD: put in Scheduler somehow
 
 export type EventHandlerArgs<T extends EventHandlerName> =
   Parameters<Extract<OptionsInput[T], (...args: any[]) => any>>
@@ -164,6 +164,7 @@ export interface OptionsInputBase {
   selectConstraint?: ConstraintInput
   selectOverlap?: boolean | OverlapFunc
   selectAllow?: AllowFunc
+  renderFinished?: AllowFunc
   editable?: boolean
   eventStartEditable?: boolean
   eventDurationEditable?: boolean

@@ -8,8 +8,5 @@
   "browserGlobal": "FullCalendarBootstrap",
   "peerDependencies": {
     "@fullcalendar/core": "~4.3.0"
-  },
-  "devDependencies": {
-    "@fullcalendar/core": "~4.3.0"
   }
 }
