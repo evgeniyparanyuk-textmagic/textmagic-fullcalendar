@@ -25,7 +25,6 @@
   },
   "copyright": "2019 Adam Shaw",
   "scripts": {
-    "install": "monorepo install",
     "build": "gulp build",
     "watch": "gulp watch",
     "lint": "gulp lint",
